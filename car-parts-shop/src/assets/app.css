@@ -81,3 +81,120 @@ body {
     color:#999999;
     font-size: 40px;
   }
+  
+  .h1{
+    color:#999999;
+  }
+
+  .nav-link-header{
+    color: white;
+    width: 100px;
+  }
+
+  .nav-link-header:hover{
+    color: rgb(110, 110, 110);
+    width: 100px;
+  }
+
+  .navbar-header{
+    background: #313550;
+  }
+  .navbar-header:hover{
+    background: #3d4266;
+  }
+  .start {
+    background: #212331;
+    min-height: 100vh;
+    color: white;
+    align-content: center;
+    top: 0px;
+  }
+
+  .navigationBar{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+  }
+
+  .productContainer{
+    background: #303241;
+    min-height: 85vh;
+    max-width: 80vw;
+    align-content: center;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    outline: #4f5477;
+    outline-offset: 2px,2px;
+    outline-width: 2px;
+    outline-style: solid;
+  }
+
+  .productBox{
+      width: 20vw;
+      height: 30vh;
+      display: inline-block;
+      background: rgba(0,0,0,0.01);
+      color: white;
+      text-align: left;
+  }
+
+  .productBox:hover{
+      background: rgba(0,0,0,0.1);
+  }
+
+  .productBox:active{
+      background: rgba(255, 255, 255, 0.1);
+  }
+
+  .Producent{
+  }
+
+  .basket{
+    background: #303241;
+    min-height: 85vh;
+    max-width: 80vw;
+    align-content: center;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    outline: #4f5477;
+    outline-offset: 2px,2px;
+    outline-width: 2px;
+    outline-style: solid;
+  }
+
+  .basketItem{
+      width: 80vw;
+      height: 30vh;
+      background: rgba(0,0,0,0.01);
+      color: white;
+      text-align: left;
+  }
+
+  .basketItem:hover{
+      background: rgba(0,0,0,0.1);
+  }
+
+  .basketItem:active{
+      background: rgba(255, 255, 255, 0.1);
+  }
+
+  .basketItem-l{    
+    display: inline-block;
+    vertical-align: top;
+    height: 30vh;
+    width: 70vw;
+    top: 0px;
+  }
+  .basketItem-r{    
+    background: rgba(255, 0, 0, 0.5);
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;    
+    height: 30vh;
+    width: 10vw;
+    top: 0px;
+  }
+  .basketItem-r-text{    
+    margin-top: 13vh;
+    vertical-align: middle;
+  }

@@ -1,24 +1,25 @@
 <template>
-  <div class="start">
-    
-    <h1>{{ msg }}</h1>
-    <NavigationBar/>
-    
-      <div class="container-fluid">
-        <h1>My First Bootstrap Page</h1>
-        <p>This is some text.</p>
-      </div>
+  <div class="start">    
+    <NavigationBar/>   
+    <br/>
+    <ProductContainer/>
+    <br/>
+    <Basket/>
 
   </div>
 </template>
 
 <script>
 import NavigationBar from './NavigationBar.vue';
+import ProductContainer from './ProductContainer.vue';
+import Basket from './Basket.vue';
 
 export default {
   name: 'Start',
   components: {
     NavigationBar,
+    ProductContainer,
+    Basket
     },
   props: {
     msg: String,
