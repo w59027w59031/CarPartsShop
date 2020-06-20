@@ -10,7 +10,7 @@
 </template>
 
 <script>
-//test2
+//test23
 import NavigationBar from './NavigationBar.vue';
 import ProductContainer from './ProductContainer.vue';
 import Basket from './Basket.vue';
