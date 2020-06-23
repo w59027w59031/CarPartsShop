@@ -7,6 +7,7 @@
     <input type="email" class="input" id="InputEmail" aria-describedby="emailHelp">
     <div class="line-box">
       <div class="line"></div>
+      <small id="emailHelp" class="form-text text-muted">Nie podawaj adresu email osobom nieupoważnionym!</small>
     </div>
   </label>
   <label>
@@ -32,8 +33,7 @@
   </label>
   <button class="mr-sm-2" type="submit">Zarejestruj</button>
   <button class="mr-sm-2" type="reset">Resetuj</button>
-  <router-link to="/">
-  <button class="mr-sm-2" type="button">Wróć</button></router-link>
+  <button class="mr-sm-2" type="button">Wróć</button>
 </form>
   </div>
 </template>
@@ -41,11 +41,11 @@
 <script>
 export default {
   name: 'Register',
-  data() {
-    return {
-      msg: 'Rejestracja użytkownika',
-    };
-  },
+  data(){
+      return{
+          msg: "Rejestracja użytkownika"
+        }
+  }
 };
 </script>
 

@@ -1,18 +1,27 @@
 <template>
-  <div class="start">
-    <p class="register-title">Witamy w AutoPart 2!</p>
+  <div class="start">    
+    <NavigationBar/>   
+    <br/>
     <ProductContainer/>
+    <br/>
+    <Basket/>
+
   </div>
 </template>
 
 <script>
+//test2345
+import NavigationBar from './NavigationBar.vue';
 import ProductContainer from './ProductContainer.vue';
+import Basket from './Basket.vue';
 
 export default {
   name: 'Start',
   components: {
+    NavigationBar,
     ProductContainer,
-  },
+    Basket
+    },
   props: {
     msg: String,
     Email: String,

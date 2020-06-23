@@ -28,9 +28,13 @@ export default {
     Jednostka: String,
     Zdjecie: String,
   },
-  methods: {
-    usun: function usun() {
-    },
-  },
+   methods: {
+    usun: function (event) {
+      // `this` inside methods point to the Vue instance
+      alert('Usuń produkt z koszyka ' + this.name + '!')
+      // `event` is the native DOM event
+      alert(event.target.tagName)
+    }
+    }
 };
 </script>

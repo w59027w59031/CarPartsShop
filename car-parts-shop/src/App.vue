@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <NavigationBar/>
-    <router-view/>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <Start/>
+    <Register/>
   </div>
 </template>
 
 <script>
-import NavigationBar from './components/NavigationBar.vue';
-import './assets/app.css';
+import Start from './components/Start.vue';
+import Register from './components/Register.vue';
+import './assets/app.css'
 
 export default {
   name: 'App',
   components: {
-    NavigationBar,
+    Start,
+    Register,
   },
 };
 </script>
